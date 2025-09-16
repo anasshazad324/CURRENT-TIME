@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.432)), url(./images\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content h2 {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgba(211, 211, 211, 0.504);
+    font-size: 40px;
+}
+
+
+.main {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    border: 3px;
+    /* box-shadow: 0 10px 5px -3px gray; */
+}
+
+
+.time h2 {
+    font-size: 100px;
+}
+
